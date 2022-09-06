@@ -30,6 +30,7 @@ public class WordManager {
             if (menu == 4) { wordCRUD.addItem();}
             else if (menu == 1) {wordCRUD.listAll();}
             else if (menu == 2) {wordCRUD.searchLevel();}
+            else if (menu == 3) {wordCRUD.searchWord();}
             else if (menu == 5) {wordCRUD.updateItem();}
             else if (menu == 6) {wordCRUD.deleteItem();}
             else if (menu == 7) {wordCRUD.saveFile();}
