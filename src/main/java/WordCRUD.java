@@ -1,10 +1,14 @@
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class WordCRUD implements ICRUD{
     ArrayList<Word> list;
     Scanner s;
-
+    final String fname = "Dictionary.txt";
     WordCRUD(Scanner s){
         list = new ArrayList<>();
         this.s = s;
@@ -94,5 +98,27 @@ public class WordCRUD implements ICRUD{
         Word word = list.get(idlist.get(id-1));
         word.setMeaning(meaning);
         System.out.println("단어가 수정되었습니다. ");
+    }
+
+    public void loadFile(){
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(fname)); //파일 읽어오기
+            String line;
+            int count = 0;
+            while(true){
+                line = br.readLine(); //한 줄 읽어오기
+                if(line == null) break;
+                String data[] = line.split("\\|"); //|기준으로 쪼개기
+                int level = Integer.parseInt(data[0]);
+                String word = data[1];
+                String meaning = data[2];
+                list.add(new Word(0, level, word, meaning));
+                count++; //개수세기
+            }
+            br.close();
+            System.out.println("==>" + count + "개 로딩 완료!!!");
+        } catch (IOException e){
+            e.printStackTrace();
+        }
     }
 }//ICRUD를 구현한 구현체
