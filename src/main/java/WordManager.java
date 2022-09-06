@@ -28,6 +28,8 @@ public class WordManager {
             if (menu == 0) break;
             if (menu == 4) { wordCRUD.addWord();}
             else if (menu == 1) {wordCRUD.listAll();}
+            else if (menu == 5) {wordCRUD.updateItem();}
+            else if (menu == 6) {wordCRUD.deleteItem();}
         }
     }
 }//WordCRUD기능 구현하는 전체적인 관리 역할
