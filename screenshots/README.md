@@ -8,7 +8,7 @@
 3. 나가기
 <img width="360" alt="image" src="https://user-images.githubusercontent.com/103620720/188356614-9cb1f7b3-d5ac-446a-a80d-019a36698807.png">
 4. 단어 수정
-
+<img width="387" alt="image" src="https://user-images.githubusercontent.com/103620720/189114546-bca3cdb0-e77f-4177-b421-a63e4f8cbe74.png">
 <br>
 5. 단어 삭제
 <img width="393" alt="image" src="https://user-images.githubusercontent.com/103620720/189113326-23905711-9368-495f-bb56-f5343cbc7e76.png">
@@ -23,5 +23,5 @@
 <img width="367" alt="image" src="https://user-images.githubusercontent.com/103620720/189112413-bd4a0d5b-4173-47a8-86ff-4d622d5aa96a.png">
 <br>
 9. 파일 저장
-
+<img width="280" alt="image" src="https://user-images.githubusercontent.com/103620720/189114075-8dad4710-55d2-4a29-a4d3-4684852b997a.png">
 <br>
