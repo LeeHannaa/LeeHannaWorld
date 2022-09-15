@@ -25,3 +25,5 @@
 9. 파일 저장
 <img width="280" alt="image" src="https://user-images.githubusercontent.com/103620720/189114075-8dad4710-55d2-4a29-a4d3-4684852b997a.png">
 <br>
+10. 파일에 저장된 단어
+<img width="298" alt="image" src="https://user-images.githubusercontent.com/103620720/190436761-4aad3345-5079-440e-822f-09486555d595.png">
